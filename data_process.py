@@ -14,7 +14,7 @@ final_data = random.sample(data, 1000)
 
 print(len(final_data))
 
-print(final_data[0:5])
+print(final_data[:5])
 
 with open(f'./data/{file_name}_small.json', 'w') as f:
 	for review in final_data:
